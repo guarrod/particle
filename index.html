@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Particle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/lightslider/css/lightslider.min.css" />
+    <link rel="stylesheet" href="./styles/animate.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+</head>
+
+<body>
+
+    <header class="animated fadeIn">
+        <div class="navbar shadow-sm p-3">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="./assets/logo.svg" alt="" srcset="">
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#questions">Questions?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#buy">Buy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./assets/germany.svg" alt="" srcset=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="top animated fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 flex -vertical animated fadeInLeft">
+                    <div>
+                        <h3>The new particle is here</h3>
+                        <h2>Argon with WIFI</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt
+                            ut
+                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>
+                        <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#contact"><img src="./assets/cart.svg" alt="" srcset="">
+                            Reservation</button>
+                    </div>
+                </div>
+                <div class="col-6 product-img text-center">
+                    <img src="./assets/board-2.png" class="animated fadeInUp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-60 bg-light animated fadeIn delay-1s" id="features">
+        <div class="container">
+            <h1 class="mb-5 animated fadeInLeft delay-1s">Features</h1>
+            <div class="row">
+                <div class="col animated fadeInUp delay-1s">
+                    <h4><img src="./assets/connection.svg"> Espressif ESP32-D0WD 2.4 GHz Wi-Fi
+                        coprocessor</h4>
+                    <ul class="mb-3">
+                        <li> On-board 4MB flash for ESP32</li>
+                        <li> 802.11 b/g/n support</li>
+                        <li> 802.11 n (2.4 GHz), up to 150 Mbps</li>
+                    </ul>
+                    <h4 class="mb-3"><img src="./assets/antena.svg"> On-board PCB antenna</h4>
+                    <h4 class="mb-3"><img src="./assets/chip.svg"> On-board additional 4MB SPI flash</h4>
+                    <h4><img src="./assets/led.svg"> RGB status LED</h4>
+                </div>
+                <div class="col text-center">
+                    <img src="./assets/board-1.png" class="w-auto" alt="" srcset="">
+                </div>
+                <div class="col animated fadeInUp delay-1s">
+                    <h4 class="mb-3"><img src="./assets/usb.svg"> Micro USB 2.0 full speed (12 Mbps)</h4>
+                    <h4 class="mb-3"><img src="./assets/chip.svg"> RRoHS compliant (lead-free)</h4>
+                    <h4><img src="./assets/button.svg"> Reset and Mode buttons</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-60 testimonials animated fadeIn delay-1s" id="testimonials">
+        <div class="container">
+            <h1 class="mb-5 animated fadeInLeft delay-1s">Testimonials</h1>
+            <div id="autoplay" class="card-deck ">
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-1.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-2.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-3.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-1.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-2.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body flex -vertical justify-content-between">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <div class="flex pl-3">
+                            <img src="./assets/photo-3.png" alt="" srcset="">
+                            <div class="pl-3">
+                                <b>Ahmed Elsayed</b><br>
+                                <span>ux/ui designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="p-60  bg-primary animated fadeIn delay-1s" id="questions">
+        <div class="container">
+            <h1 class="mb-5 text-white animated fadeInLeft delay-1s">Have a Questions?</h1>
+
+             <iframe class="animated fadeInUp delay-1s" width="100%" height="450" src="https://www.youtube.com/embed/5CQWvvhwp_M" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe> 
+
+            <p class="m-4 text-center text-white animated fadeInUp delay-1s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
+        </div>
+    </div>
+
+    <div class="p-60 animated fadeIn delay-1s" id="newsletter">
+        <div class="container">
+            <h1 class="mb-4 animated fadeInLeft delay-1s">Newsletter</h1>
+            <p class="m-4 m-auto animated fadeInUp delay-1s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+
+            <div class="form-center mt-4 flex -center animated fadeInUp delay-1s">
+                <div class="form-group mx-sm-3 mb-2 w-50">
+                    <input type="email" class="form-control" id="inputPassword2" placeholder="Email">
+                </div>
+                <button type="submit" class="btn btn-danger mb-2" data-toggle="modal"
+                data-target="#thanks">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="p-60 buy animated fadeIn delay-1s" id="buy">
+        <div class="container">
+            <h1 class="mb-4 animated fadeInLeft delay-1s">Where To Buy</h1>
+            <div class="row animated fadeInUp delay-1s">
+                <div class="col-5">
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                    <ul>
+                        <li><img src="./assets/check-green.svg" alt="" srcset=""> Germany</li>
+                        <li><img src="./assets/check-green.svg" alt="" srcset=""> Madrid</li>
+                        <li><img src="./assets/check-green.svg" alt="" srcset=""> France</li>
+                        <li><img src="./assets/check-red.svg" alt="" srcset=""> Italy</li>
+                        <li><img src="./assets/check-red.svg" alt="" srcset=""> Ucrania</li>
+                    </ul>
+                </div>
+                <div class="col-7">
+                    <img src="./assets/map.png" alt="" width="100%" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer p-2 bg-dark">
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#questions">Questions?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#newsletter">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buy">Buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="./assets/germany.svg" alt="" srcset=""></a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+
+    <!-- contact -->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document" style="margin-top: 20vh">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Get In Touch</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id=""
+                                        placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="">
+                                        <option>Info</option>
+                                        <option>Sales</option>
+                                        <option>Support</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" id="" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-danger">Send</button>
+                            </form>
+                        </div>
+                        <div class="col-7">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                            <a href="mailto:email@example.com" class="mb-3">email@example.com</a>
+                            <br>
+                            <a href="tel:+002-010-66269735" class="mb-3">002-010-66269735</a>
+                            <br><br>
+                            <a href="" class="mr-3"><img src="./assets/facebook-f.svg" alt="" srcset=""></a>
+                            <a href="" class="mr-3"><img src="./assets/linkedin-in.svg" alt="" srcset=""></a>
+                            <a href="" class="mr-3"><img src="./assets/twitter.svg" alt="" srcset=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- thank you -->
+    <div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="thanks"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document" style="margin-top: 40vh">
+            <div class="modal-content">
+                <div class="modal-header p-4">
+                    <h3 class="text-success">Thanks for suscribe</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="./assets/jquery-3.4.1.min.js"></script>
+        <script src="./assets/popper.min.js"></script>
+        <script src="./assets/bootstrap.min.js"></script>
+        <script src="./assets/lightslider/js/lightslider.min.js"></script>
+        <script src="custom.js"></script>
+</body>
+
+</html>
